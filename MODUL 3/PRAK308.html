@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>Rekonstruksi Pembuatan Form HTML</title>
+</head>
+<body>
+<h1><font color="red">Pendaftaran Kursus</font></h1>
+    <tr></tr>
+<body>
+    <h2>Data Diri</h2>
+
+<form>
+<table cellpadding="5">
+    <tr>
+        <td>Nama</td>
+        <td><input type="text" name="nama" size="30"></td>
+    </tr>
+
+    <tr>
+        <td>NIM</td>
+        <td><input type="text" name="nim" maxlength="20" size="30"></td>
+    </tr>
+
+    <tr>
+        <td>E-mail</td>
+
+        <td><input type="text" name="email" size="30"></td>
+    </tr>
+
+    <tr>
+        <td>Tanggal Lahir</td>
+        <td><input type="text" name="tanggal_lahir" size="25"></td>
+    </tr>
+
+    <tr>
+        <td valign="top">Jenis Kelamin</td>
+        <td>
+            <input type="radio" name="jenis_kelamin" value="L"> Laki-laki <br>
+            <input type="radio" name="jenis_kelamin" value="P"> Perempuan
+        </td>
+    </tr>
+
+    <tr>
+        <td valign="top">Program Kursus</td>
+        <td>
+            <input type="checkbox" name="kursus1" value="C#"> C# <br>
+            <input type="checkbox" name="kursus2" value="Java"> Java <br>
+            <input type="checkbox" name="kursus3" value="SQL"> SQL <br>
+            <input type="checkbox" name="kursus4" value="HTML PHP"> HTML dan PHP
+        </td>
+    </tr>
+
+    <tr>
+        <td>Pilihan Jadwal Hari/Jam Kursus</td>
+        <td>
+            <select name="Pilihan Jadwal Hari/Jam Kursus">
+                <option value="senin">Senin-Rabu / 09.00 - 11.00</option>
+            </select>
+        </td>
+    </tr>
+<tr>
+    <td colspan="5">
+        Komentar Anda
+        <br>
+        <textarea name="deskripsi" cols="67" rows="6"></textarea>
+    </td>
+</tr>
+    <tr>
+        <td colspan="3">
+            <br>
+            <input type="submit" value="Kirim" name="Submit">
+            <input type="reset" value="Ulangi" name="Reset">
+            <input type="button" value="Batal" name="Cancel">
+        </td>
+    </tr>
+
+</table>
+</form>
+
+</body>
+</html>
